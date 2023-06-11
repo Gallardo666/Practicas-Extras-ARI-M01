@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es" lang="en">
+    <head>
+        <meta charset="utf-8"> </meta>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="./Codigos.js" defer></script>
+        <link rel="stylesheet" href="TornoEstilo.css">
+        <title>ABP4 - Torno paralelo</title>
+    </head>
+
+    <header>
+        <h1 id="Torno">ABP4 - Torno Paralelo</h1>
+    </header>
+
+    <bodhy class="cuerpo">
+        
+
+        <div>
+            <img src="./Imagenes/Torno.png" alt="Error" id="imagentorno">
+
+        <article id="realizados">
+            <a href="#Contingutsrealitzats"><h3>Continguts realitzats:</h3><br></a>
+            <h4><p>Identificació i distribució d'elements elèctrics en la màquina (RA1-RA4)</p></h4>
+            <h4><p>Identificació elements de seguretat (RA1)</p> </h4>
+            <h4><p>Identificació característiques elements instal·lats (RA1)</p> </h4>
+            <h4><p>Justificació idoneitat elements instal·lats (RA1)</p></h4>
+            <h4><p>Identificació de tasques de manteniment preventiu (RA6)</p></h4>
+            <h4><p>Sistemes seguretat (RA7)</p></h4><br>
+        </article>
+
+       
+        
+        <article id="adicional" >
+            <a href="#Contingutsadicionals"><h3>Continguts adicionals:</h3></a>
+            <h4><p>Materials característics del quadre de control (RA3)</p></h4></a>
+            <h4><p>Identificació avaries típiques (RA6)</p></h4><br>
+        </article>
+        </div>
+        
+
+
+        <br><br><br><br>
+    
+
+        <h3 id="Contingutsrealitzats">Continguts realitzats:</h3> <br><br>
+        <h4 id="Identificació i distribució d'elements elèctrics en la màquina (RA1-RA4)">Identificació i distribució d'elements elèctrics en la màquina (RA1-RA4)</h4>
+
+            <ul><li>Para comenzar el circuito esta protegido con un diferencial y con un magnetotermico.</li> <br>
+                <li> También hay un transformador de 230V y/o 400V que lo pasa a 24V, que se aplica en el circuito de maniobra.</li> <br>
+                <li>Aparte hay 7 Fusibles, separados en grupos de 3 y 1 se queda solo.</li> <br>
+                <li> Por otra parte se puede apreciar un temporizador y en el mismo carril DIN hay 4 contactores, que en el 1 y en el 2 tienen contactos auxiliares.</li> <br>
+                <li> Como no, no puede faltar el motor con el que funcióna el Torno y conectado anteriormente a un relé térmico.</li> <br>
+                <li>Aparte también tiene instalado 1 fluorescente de 30W de Philips.</li> <br>
+                <li>Por ultimo , hay varios finales de carreras y un pulsador de emergencia.</li> <br></ul>
+        
+
+
+        <h4 id="Identificació elements de seguretat (RA1)">Identificació elements de seguretat (RA1)</h4>
+
+       <ul><li>Como se ha mencionado antes hay un pulsador de emergencia, aunque aparte también hay varios finales de carreras con los cuales aplican mas dificultad a la hora de poner en marcha la maquina, haciendo que si algun
+            final de carrera no esta en su posición no empieze a girar. Con el que se puede parar cuando ya ha empezado a girar ya sea con cualquier final de carrera que no este haciendo su función como verificar que el cristal
+            de seguridad este en su sitio, tanto con el pulsador de emergencia o como con el "pedal" que hay en la parte inferior del torno.</li></ul> 
+
+
+        <h4 id="Identificació característiques elements instal·lats (RA1)">Identificació característiques elements instal·lats (RA1)</h4>
+
+        <ul><li>El diferencial es de 30mA y de 45A, o almenos es lo que puedo apreciar por la foto. Y el magnetotermico es de Curva C, con una tensión nominal de 400V,con una intensidad de poder de corte de 8000 A por lo que parece.
+                Y los 2 aparatos son de Merlin Gern </li> <br>
+            <li> En el transformador, en el circuito primario se puede aplicar 230 o 400V y es de In de 0,69 A en el caso de 230 y de 0,4 A en el caso de 400. Y en el circuito secundario es de 6,6 A a 24V.</li> <br>
+            <li> El fusible FU1, es de 32A, de la marca wohner, mientras que los FU2 son de 50A y los FU3 de 32A y tambíen de la marca wohner. </li> <br>
+            <li> El temporizador es de la marca de AUTOMATISMOS, del cual esta alimentado a 24V alterna y es el modelo VIE010 y tiene un arranque a la desconexión con una potencia aparente de 0,9 VA.</li> <br>
+            <li> En el motor no se puede apreciar el amperaje al que funcióna debido al flash de la camara, pero si funciona a 230 V en triangulo y tiene una potencia de 5,5kW y un coseno de fi de 0,83 , se puede deducir que tiene un
+                amperaje de 28,81A.</li> <br>
+            <li>Aparte también tiene instalado 1 fluorescente de 30W de Philips.</li> <br>
+            <li>En los finales de carrera son NO si cuando estan sin tocarse no funciona la maquina y son NC si cuando estan sin tocarse si funciona. Aparte el pulsador de emergencia es NC, para abrir el circuito en caso de fallo.</li> <br>
+             <li>En los cuales no se pueden apreciar las caracteristicas són en el relé termico y en los contactores. Pero sabiendo que trabajan en el circuito de potencia trabajaran a 400V, y la parte de los contactores que trabaja en el 
+                circuito de maniobra trabajará a 24V.</li> <br> <br></ul>
+           
+           
+
+        <h4 id="Justificació idoneitat elements instal·lats (RA1)">Justificació idoneitat elements instal·lats (RA1)</h4>
+            <ul>
+                <li>Las protecciones como el diferencial esta bien, ya que sirve para proteger a las personas frente a los contactos directos y indirectos.</li><br>
+                <li>Y los fusibles también estan bien, ya que si el amperaje del motor es el calculado de 29A y los fusibles son de 32, estan en orden.</li><br>
+            </ul>
+
+        <h4 id="Identificació de tasques de manteniment preventiu (RA6)">Identificació de tasques de manteniment preventiu (RA6)</h4>
+
+        <ul>
+            <li>Para seguir el mantenimiento preventivo del torno hay varios puntos a seguir, empezando por la seguridad, asegurandose que los finales de carrera y el los metodos de paro del torno funcionan correctamente.
+                Otro punto que se puede seguir es asegurarse de que los bornes de los elementos instalados esten apretados , ya que con el tiempo se van aflojando y se puede llegar a soltar algun cable.
+                Y el caso de este torno que tiene un fluorescente, asegurarse que si funciona que se cambie por otro cuando falle para que no cause fatiga visual.
+            </li>
+        </ul>
+
+
+        <h4 id="Sistemes seguretat (RA7)">Sistemes seguretat (RA7)</h4>
+
+            <ul>
+                <li>Los sistemas de seguridad de este Torno están hechos mediante finales de carrera y pulsadores de emergencia. De forma que cuando se abre el cristal de protección de proyectiles, se pare la maquina de forma que reduzca las posibilidades de 
+                    recibir daño. Lo mismo pasa con los finales de carreras puestos en puntos estrategicos de la maquina. Y el pulsador de emergencia y el "pedal" actuan por si lo queremos parar de forma mas rapida, con el pulsador de emergencia por si nos pillamos
+                    de alguna forma la mano o algo de la ropa, pararlo. Y el "pedal" para poder pararlo con el pie.
+                </li><br>
+                <li>
+                    Otros sistemas de seguridad son los magnetotermicos, diferencial, fusibles y el relé termico. Que cada uno se aplica para proteger distintas cosas. Por ejemplo el Relé termico se utiliza para proteger al motor de las sobrecargas, mientras
+                    que el diferencial sirve para proteger de cortocircuitos y de que las personas sufran descargas electricas por culpa de las corriente de fugas.
+                </li><br>
+            </ul>
+
+            <br><br><br>
+
+            <h3 id="Contingutsadicionals">Continguts adicionals:</h3> <br>
+
+        <h4 id="Materials característics del quadre de control (RA3)">Materials característics del quadre de control (RA3)</h4>
+
+        <ul>
+            <li>
+                <p>Los materiales caracteristicos del cuadro de control son selectores, que depende de lo que se quiera aplicar hara una función u otra como indica la tabla.</p>
+                <img src="./Imagenes/Cuadro de control Torno.png" alt="Error" id="caracteristicastorno">
+            </li>
+        </ul>
+        
+
+
+        <h4 id="Identificació avaries típiques (RA6)">Identificació avaries típiques (RA6)</h4>
+
+        <ul>
+            <li>Una de las averias que se nos explicó en clase es que los contactores que llevan años usandose (como el del torno, por lo que se puede apreciar que es viejo) la bobina puede que vaya perdiendo
+                fuerza por lo que no pueda mover los contactos auxiliares.
+            </li>
+            <li>Otro punto puede ser que algun final de carrera se haya roto por algun golpe y se haya roto.</li>
+            <li>Un fallo que puede ocurrir es que siempre que salte un fusible, hay que cambiarlo.</li>
+        </ul>
+
+
+
+    </bodhy>
+    <footer id="footer">
+        <br><br><br>
+        <h3>Jordi Gallardo Sánchez <b>1WEAR</b> <b>M01</b> <b>UF1</b> </h3> 
+        
+
+</html>

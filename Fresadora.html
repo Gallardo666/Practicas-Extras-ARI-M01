@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es" lang="en">
+    <head>
+        <meta charset="utf-8"> </meta>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="./Codigos.js" defer></script>
+        <link rel="stylesheet" href="Fresadora.css">
+        <title>ABP2 - Fresadora</title>
+    </head>
+
+    <header>
+        <h1 id="Fresadora">ABP2 - Fresadora</h1>
+    </header>
+
+    <bodhy class="cuerpo">
+        
+
+        <div>
+            <img src="./Imagenes/Fresadora.jpg" alt="Error" id="imagenfresadora">
+
+            <article id="realizados">
+                <a href="#Contingutsrealitzats"><h3>Continguts realitzats:</h3><br></a>
+                <h4><p>Identificació i distribució d'elements elèctrics en la màquina</p></h4>
+                <h4><p>Identificació esquema de connexionat</p> </h4>
+                <h4><p>Identificació característiques elements instal·lats</p> </h4>
+                <h4><p>Justificació idoneitat elements instal·lats</p></h4>
+                <h4><p>Identificació de tasques de manteniment preventiu</p></h4>
+                <h4><p>Procediment variació velocitat motor capçal</p></h4><br>
+            </article>
+
+       
+        
+            <article id="adicional" >
+                <a href="#Contingutsadicionals"><h3>Continguts adicionals:</h3></a>
+                <h4><p>Procediment verificació bobinats motor</p></h4></a>                
+                <h4><p>Realitzar les modificacions addients per a que la màquina no es possi en funcionament si alguna de les barreres de seguretat està oberta.</p></h4>
+                <h4><p>Propossar modificacions per aturar l'eix del capçal instantàneament al premer stop o al obrir alguna de les barreres de seguretat.</p></h4></a>
+            </article>
+        </div>
+        
+
+
+        <br><br><br><br>
+    
+
+        <h3 id="Contingutsrealitzats">Continguts realitzats:</h3> <br><br>
+        <h4>Identificació i distribució d'elements elèctrics en la màquina </h4>
+
+            <ul>
+                <li>Diferencial y magnetotermico.</li>
+                <li>Pulsadores de paro y de marcha.</li>
+                <li>Selector para sentido al motor.</li>
+                <li>3 Contactores.</li>
+                <li>2 Relés Térmicos ya que falta el de la taladrina.</li>
+                <li>Fusibles del circuito de maniobra y fusibles del circuito de fuerza.</li>
+                <li>Transformador para alimentar finales de carrera.</li>
+            </ul>
+        
+
+
+        <h4>Identificació esquema de connexionat</h4>
+
+            <ul>
+                <li>El conexionado del bornero es el siguiente:</li>
+                <img src="Imagenes/ConexionadoBornero Fresadora.png" alt="Error" width="600px">
+            </ul> 
+
+
+        <h4>Identificació característiques elements instal·lats</h4>
+
+            <ul>
+                <li>Diferencial de 25A y sensibilidad de 300mA funcionando a 380V.
+                     Y magnetotermico de 6-10A (sin poderse apreciar mas caracteristicas por calidad de la imagen).</li>
+                <li>Pulsador de paro NC</li>
+                <li>Pulsador de marcha NO</li>
+                <li>Selector de cambio de giro</li>
+                <li>Motores con la placa de caracteristicas de la siguiente imagen:</li><br>
+                <img src="Imagenes/Placamotores.png" alt="Error"> <br><br>
+                <li>Relés Térmicos con las caracteristicas de la siguiente imagen:</li><br>
+                <img src="Imagenes/Caracteristicasreletermico.png" alt="Error"><br>
+                <li>Fusibles con las caracteristicas de la siguiente imagen:</li><br>
+                <img src="Imagenes/Fusiblescaracteristicas.png" alt="Error"><br>
+            </ul>
+           
+           
+
+        <h4>Justificació idoneitat elements instal·lats</h4>
+            <ul>
+                <li>Los magnetotermicos estan bien dimensionados porque el motor es de 6,4A,
+                     y el magneto va de 6 a 10A, y si aparte de eso le añadimos la intensidad del circuito de maniobra, no pasará de 10A.</li>
+                <li>Los pulsadores y el selector, si estan bien conectado y hacen su función no debe haber ningun problema si hagantan la corriente.</li>
+            </ul>
+
+        <h4>Identificació de tasques de manteniment preventiu</h4>
+
+            <ul>
+                <li>Uno de los pasos de mantenimiento preventivo es ir mirando que no haya saltado nada. Aunque si hubiese saltado alguna protección no funciónaria la maquina.</li>
+                <li>Se puede ir comprobando que todos los finales de carrera hagan su funcionamiento.</li>
+                <li>Y de tanto en tanto se recomienda limpiar el motor para que reduzca las posibilidades de fallo. Aunque en este caso es dificil ya que esta incrustado en el interior de la fresadora.</li>
+
+            </ul>
+
+
+        <h4>Procediment variació velocitat motor capçal</h4>
+
+            <ul>
+                <li>Para que no se cree un pico de sobrecarga, se puede hacer el arranque estrella-triangulo, de forma
+                    que ayude a no dañar tanto el motor, haciendo que empieze mas suave y que continue con la potencia
+                    deseada.
+                </li>
+            </ul>
+                
+            <br><br><br>
+
+            <h3 id="Contingutsadicionals">Continguts adicionals:</h3> <br>
+
+        <h4>Procediment verificació bobinats motor</h4>
+
+        <ul>
+            <li>Para realizar esta verificación se comprueba con el meger, comprobando que si da mas de unos ohmios (reglamentado) esta todo en orden. Si da inferior es que está en mal estado.</li>
+        </ul>
+
+
+        <h4>Realitzar les modificacions addients per a que la màquina no es possi en funcionament si alguna de les barreres de seguretat està oberta.</h4>
+
+        <ul>
+            <li>Simplemente es añadir los finales de carrera de  las barreras sean NC y que estén al principio de todo el circuito, como se puede apreciar en el siguiente esquema:</li><br>
+            <img src="Imagenes/Esquema multifilar  Fresadora.png" alt="Error">
+        </ul>
+
+        <h4>Propossar modificacions per aturar l'eix del capçal instantàneament al premer stop o al obrir alguna de les barreres de seguretat.</h4>
+
+        <ul>
+            <li>Puede ser añadir una pieza que al activar el stop que haga un contacto físico con el motor para que se pare en seco como sucede con la palanca que está puesta aunque esta es manual.</li>
+        </ul>
+
+
+
+    </bodhy>
+    <footer id="footer">
+        <br><br><br>
+        <h3>Jordi Gallardo Sánchez <b>1WEAR</b> <b>M01</b> <b>UF1</b> </h3> 
+        
+
+</html>

@@ -1,0 +1,66 @@
+*{
+    margin-left: 10px;  
+   }
+
+
+/*Titulo*/
+#Cizalla {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:40px;
+text-shadow: 2px 2px 2px rgb(91, 233, 233);
+padding-left:0px;
+margin: 0px;
+margin-left: 0px;
+margin-top: 40px;
+padding-left: 15px;
+}
+
+
+/*Contenidos realizado*/
+#realizados{
+background-color:rgba(255, 157, 11, 0.425);
+margin-top:40px ;
+margin-bottom:50px;
+border-radius: 13px;
+width: 550px;
+}
+
+/*Contenido adicional*/
+#adicional {
+    background-color: rgba(225, 58, 240, 0.26);
+    border-radius: 13px;
+    width: 550px;
+}
+
+#imagencizalla {
+    margin-left: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 300px;
+    margin-top:60px;
+    width:700px; 
+    height:450px;
+}
+
+
+#Contingutsrealitzats{
+    border-bottom: solid rgba(255, 157, 11);
+    margin-right: 30px;
+}
+
+#Contingutsadicionals{
+    border-bottom: solid rgba(225, 58, 240);
+}
+
+#footer{
+    margin-top: 50px;
+    font-size:20px;
+    border-top: solid black;
+    height: 170px;
+    background-image: url("./Imagenes/Jordi.png");
+    background-size:100px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+

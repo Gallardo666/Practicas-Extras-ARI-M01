@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es" lang="en">
+    <head>
+        <meta charset="utf-8"> </meta>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="./Codigos.js" defer></script>
+        <link rel="stylesheet" href="Cizalla.css">
+        <title>ABP3 - Cizalla</title>
+    </head>
+
+    <header>
+        <h1 id="Cizalla">ABP3 - Cizalla</h1>
+    </header>
+
+    <bodhy class="cuerpo">
+        
+        
+        <div>
+        <img src="./Imagenes/Cizalla.png" alt="Error" id="imagencizalla">
+        <article id="realizados">
+            <a href="#Contingutsrealitzats"><h3>Continguts realitzats:</h3><br></a>
+            <h4><p>Identificació i distribució d'elements elèctrics en la màquina (RA1-RA4)</p></h4>
+            <h4><p>Identificació elements de seguretat (RA1)</p> </h4>
+            <h4><p>Identificació esquema de connexionat (RA2)</p> </h4>
+            <h4><p>Identificació característiques elements instal·lats (RA1)</p></h4>
+            <h4><p>Justificació idoneitat elements instal·lats (RA1)</p></h4>
+            <h4><p>Procediment verificació funcionament (RA5)</p></h4>
+            <h4><p>Identificació de tasques de manteniment preventiu (RA6)</p></h4>
+            <h4><p>Sistemes seguretat (RA7)</p></h4><br>
+        </article>
+
+       
+        
+        <article id="adicional" >
+            <a href="#Contingutsadicionals"><h3>Continguts adicionals:</h3></a>
+            <h4><p>Materials característics del quadre de control (RA3)</p></h4></a>
+            <h4><p>Identificació avaries típiques (RA6)</p></h4><br>
+        </article>
+        </div>
+        
+
+
+        <br><br><br><br>
+    
+        <div>
+            <h3 id="Contingutsrealitzats">Continguts realitzats:</h3> <br><br>
+        <h4>Identificació i distribució d'elements elèctrics en la màquina (RA1-RA4)</h4>
+
+            <ul>
+                <li>2 Pulsadores para accionar la cizalla (los de color amarillo y tapados por precaución).</li>
+                <li>2 Pulsadores de emergencia (1 con pulsadores amarillos y otro en el panel digital).</li>
+                <li>2 Pulsadores para situar la pieza (de color verde en el panel digital).</li>
+                <li>El Interruptor general que se abre cuando se abre el cuadro.</li>
+                <li>Transformador para aparatos de 24V.</li>
+                <li>Temporizador.</li>
+                <li>Relé de seguridad.</li>
+                <li>3 Contactores.</li>
+                <li>Relés (KA).</li>
+                <li>Disyuntos (QF2).</li>
+                <li>Magneto para parte de maniobra(FU1, FU2).</li>
+                <li>Finales de carreras.</li>
+                <li>Motor.</li>
+                <li>Detector mediante laser (impide accionar la cizalla mientras alguien recoje la pieza).</li>
+            </ul>
+        
+
+
+        <h4>Identificació elements de seguretat (RA1)</h4>
+
+            <ul>
+                <li>Pulsador de emergencia.</li>
+                <li>Finales de carrera de precaución.</li>
+            </ul> 
+
+        <h4>Identificació característiques elements instal·lats (RA1)</h4>
+
+            <ul>
+                <li>Interruptor General tiene las siguientes características:</li>
+                <img src="Imagenes/Caracteristicas IGA.png" alt="Error">
+                <li>Transformador con la siguiente etiqueta de caracteristicas:</li>
+                <img src="Imagenes/Caracteristicas Trafo.png" alt="Error">
+                <li>Magnetotermicos FU1 y FU2 son de curva C de 6A de marca Schneider.</li>
+                <li>Disyuntor QF2 de 1,6/2,5A de marca Schneider.</li>
+                <li>Los contactores tienen la siguente referencia: LC1D09. De la marca de Schneider.</li>
+                <li>El rele de seguridad es de la marca de Omron y no se puede observar ninguna caracteristica mas.</li>
+                <li>También esta el temporizador (KT1) que es TYPE ST3 de la marca FUJI.</li>
+                <li>Otro estan los Relés de 24VAC que van a 50/60Hz que también son de schneider.</li>
+                <li>No pueden faltar los pulsadores NC de Telemecanique que funciónan a AC con voltaje de 240V a 3A.</li>
+                <li>El final de carrera que es de TMaZTZ con referencia TZ-7141. 
+                    Que funcióna a 380V con una intensidad de 10A y si se conecta a 220V con una intensidad de 0,3A</li>
+                <li>Sensor fhotoelectrico de Omron con referencia de E3JK-R4M1</li>
+                <li>Y por ultimo el motor que funcióna a 400V que funciona con 0.62A con una IP de 44 y a 0,18kW.</li>
+            </ul>
+        
+        <h4><p>Identificació esquema de connexionat (RA2)</p></h4>
+
+            <ul>
+                <li>El conexionado del bornero es el siguiente:</li>
+                <img src="Imagenes/ConexionadoBornero Cizalla.png" alt="Error">
+            </ul>
+
+        <h4>Justificació idoneitat elements instal·lats (RA1)</h4>
+
+            <ul>
+                <li>Los elementos están bien escogidos debido que el motor no necesita gran potencia, 
+                    por lo que esta bien protegido y los elementos escogidos son adecuados al voltaje a utilizar.</li>
+
+            </ul>
+
+        <h4><p>Procediment verificació funcionament (RA5)</p></h4>
+
+            <ul>
+                <li>Un punto basico para comprobar si funciona es comprobar que todo esta conectado 
+                    y apartir de ahi ir mirando si le llega la alimentación a todos los elementos.
+                    También se puede comprobar usando la maquina y todas las posibilidades que puede 
+                    pasar, como que salte un sensor o los pulsadores de emergencia, 
+                    y asi con todos los elementos asegurandose que hacen la función que estan destinados a hacer. 
+                    Si hay algun fallo en algun elemento, hay que cambiarlo por uno nuevo que tenga las mismas
+                    caracteristicas para no haya una incompatibilidad.</li>
+            </ul>
+
+        <h4>Identificació de tasques de manteniment preventiu (RA6)</h4>
+
+            <ul>
+                <li>En este caso se puede ir comprobando cada x tiempo ue se quede sin utilizar que siga funcionando.</li>
+                <li>Otro punto vastante iportante es verificar que la cizalla este afilada de forma que pueda cortar la pieza deseada.</li>
+                <li>También se puede ir revisando que los tornillos de los bornes no esten aflojados.</li>
+                <li>Asegurarse de que los sensores de seguridad y el paro de emergéncia funciónen correctamente.</li>
+            </ul>
+
+
+        <h4>Sistemes seguretat (RA7)</h4>
+
+            <ul>
+                Los sistemas de seguridad de la cizalla hay 3 principales:
+                    <li>El pulsador de emergencia, que asegura que deja de funcionar en cualquier caso de emergencia.</li>
+                    <li>Los finales de carrera que impiden accionar la cizalla cuando detectan que alguien esta cogiendo la pieza.</li>
+                    <li>El pulsador que impide volver a accionar la cizalla si se ha detectado los finales de carrera.</li>
+            </ul>
+                
+            <br><br><br>
+        </div>
+        
+        <div>
+            <h3 id="Contingutsadicionals">Continguts adicionals:</h3> <br>
+
+            <h4>Materials característics del quadre de control (RA3)</h4>
+
+                <ul>
+                    <li>La pantalla digital la cual tiene opciones para personalizar la cizalla.</li>
+                </ul>
+
+
+            <h4>Identificació avaries típiques (RA6)</h4>
+
+                <ul>
+                    <li>En este tipos de maquinas, pueden haber fallo de que la cizalla no este bien afilada, por lo que no corte bien las piezas.</li>
+                    <li>Los sensores que se romppan de un golpe y dejen de funcionar.</li>
+                </ul>
+        </div>
+            
+
+    </bodhy>
+
+    <footer id="footer">
+        <br><br><br>
+        <h3>Jordi Gallardo Sánchez <b>1WEAR</b> <b>M01</b> <b>UF1</b> </h3> 
+        
+
+</html>
